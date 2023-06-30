@@ -1,0 +1,34 @@
+.Table-Entry {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.Table-Entry-row {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.Table-Entry-col {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.Table-Entry-col--first {
+    font-weight: bolder;
+}
+
+.Table-Entry-col--firstof5 {
+    background-color: blue;
+}
+
+.Table-Entry-col--usdt {
+    background-color: green;
+}
